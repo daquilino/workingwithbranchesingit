@@ -1,5 +1,18 @@
-# workingwithbranchesingit
+s# workingwithbranchesingit
 Guide and demo working with branches in git.
+
+
+
+## Working with other people
+https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository
+
+One member will have to host the repo on their GitHub.
+They can then add the other members as collaberators
+(On Gihub -> settings -> Manage acess -> Invite a callaborator ) 
+Other team members will clone their repo. And create branches
+
+
+
 
 
 
