@@ -13,33 +13,33 @@ Other team members will clone their repo. And create branches
 
 
 # Creates a new brach
-git branch NAMEOFBRANCHTOCRATE
+`git branch NAMEOFBRANCHTOCRATE`
 
 # Switches between brances
-git checkout NAMEOFBRANCH
+`git checkout NAMEOFBRANCH`
 
 # Check which branch you are on
-git branch
+`git branch`
 
 #  Pushing to your new branch
 
-git add -A
-git commit -m "SOME COMMENT"
-git push origin NAMEOFBRANCHTOPUSHTO
+`git add -A`
+`git commit -m "SOME COMMENT"`
+`git push origin NAMEOFBRANCHTOPUSHTO`
 
 
 # Pulling and merging from Master (or any branch)
 ** THIS SHOULD ALWAYS BE DONE BEFORE COMMITING AND PUSHING YOUR BRANCH TO UNSURE YOUR BRANCE IS UP TO DATE WITH MASTER (or any other branch)
 
 ## In the master branch
-git checkout master
-git pull
+`git checkout master`
+`git pull`
 
 ## Then swich to the branch you want to merge
-git checkout NAMEOFBRANCH
-git merge master
+`git checkout NAMEOFBRANCH`
+`git merge master`
 
 ## *ALternativly from within your brach you can run
 *This will (fetch and merge) the master branch into your branch
 ** However this will not update your local master branch.
-git pull origin master
+`git pull origin master`
