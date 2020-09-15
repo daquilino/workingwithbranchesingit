@@ -13,7 +13,7 @@ Other team members will clone their repo. And create branches
 
 
 # Creates a new brach
-`git branch NAMEOFBRANCHTOCRATE`
+`git branch NAMEOFBRANCH`
 
 # Switches between brances
 `git checkout NAMEOFBRANCH`
@@ -25,7 +25,7 @@ Other team members will clone their repo. And create branches
 
 `git add -A`
 `git commit -m "SOME COMMENT"`
-`git push origin NAMEOFBRANCHTOPUSHTO`
+`git push origin NAMEOFBRANCH`
 
 
 # Pulling and merging from Master (or any branch)
