@@ -1,7 +1,7 @@
-# workingwithbranchesingit
+# Working with branches in git (GitHub)
 Guide and demo working with branches in git.
 
-(https://github.com/daquilino/workingwithbranchesingit)[https://github.com/daquilino/workingwithbranchesingit]
+[https://github.com/daquilino/workingwithbranchesingit](https://github.com/daquilino/workingwithbranchesingit)
 
 ## Working with other people
 https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository
