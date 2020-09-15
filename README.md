@@ -1,7 +1,7 @@
-s# workingwithbranchesingit
+# workingwithbranchesingit
 Guide and demo working with branches in git.
 
-
+(https://github.com/daquilino/workingwithbranchesingit)[https://github.com/daquilino/workingwithbranchesingit]
 
 ## Working with other people
 https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository
@@ -12,10 +12,6 @@ They can then add the other members as collaberators
 Other team members will clone their repo. And create branches
 
 
-
-
-
-
 # Creates a new brach
 git branch NAMEOFBRANCHTOCRATE
 
@@ -24,7 +20,6 @@ git checkout NAMEOFBRANCH
 
 # Check which branch you are on
 git branch
-
 
 #  Pushing to your new branch
 
@@ -43,3 +38,8 @@ git pull
 ## Then swich to the branch you want to merge
 git checkout NAMEOFBRANCH
 git merge master
+
+## *ALternativly from within your brach you can run
+*This will (fetch and merge) the master branch into your branch
+** However this will not update your local master branch.
+git pull origin master
